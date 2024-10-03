@@ -1,6 +1,9 @@
+// muruj haddad
+// 444001151
+// I changed the attribute name 
 //----------------------------------------------------------------------------------------------
 
-// Java code for linearly search x in arr[]. If x
+// Java code for linearly search x in arr[]. If h
 
 // is present then return its location, otherwise
 
@@ -10,17 +13,17 @@ class LinearSearch {
 
             // This function returns index of element x in arr[]
 
-            static int search(int arr[], int n, int x)
+            static int search(int arr[], int m, int h)
 
             {
 
-                        for (int i = 0; i < n; i++) {
+                        for (int i = 0; i < m; i++) {
 
                                 // Return the index of the element if the element
 
                                     // is found
 
-                                    if (arr[i] == x)
+                                    if (arr[i] == h)
 
                                                 return i;
 
@@ -41,11 +44,11 @@ class LinearSearch {
 
                         int[] arr = { 3, 4, 1, 7, 5 };
 
-                        int n = arr.length;
+                        int h = arr.length;
 
-                        int x = 4;
+                        int m = 4;
 
-                        int index = search(arr, n, x);
+                        int index = search(arr, m, h);
 
                         if (index == -1)
 
